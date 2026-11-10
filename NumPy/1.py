@@ -1,6 +1,6 @@
 import numpy as np
 
-#! Basics
+#! The Basics
 
 a = np.array([1, 2, 3], dtype = "int8") # int8 is 8 bits ot 1 byte of data
 print(a)
@@ -12,7 +12,7 @@ print(b)
 print(a.ndim)
 print(b.ndim)
 
-# Get Shape (row x columns)
+# Get Shape (row, columns)
 print(a.shape)
 print(b.shape)
 
@@ -28,6 +28,3 @@ print(b.itemsize)
 print(a.size * a.itemsize) # a.size gives the total number of elements in the array
 print(a.nbytes)
 print(b.nbytes)
-
-#! Accesssing/Changing specific elements, rows,columns, etc.
-
