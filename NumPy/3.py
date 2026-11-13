@@ -27,7 +27,7 @@ print(np.identity(4))
 
 # Repeat an array
 arr = np.array([[1, 2, 3]])
-r1 = np.repeat(arr, 3, axis=0) #! By default axis is 1 (horizontal), axis=0 makes it repeat vertically in a 2D matrix
+r1 = np.repeat(arr, 3, axis=0) #! By default axis is 1 (horizontal/columns), axis=0 makes it repeat vertically (row wise) in a 2D matrix
 print(r1)
 
 #! NOTE: Be careful when copying arrays!!!
